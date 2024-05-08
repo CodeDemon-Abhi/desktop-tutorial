@@ -6,16 +6,15 @@
 body{
     width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
     font-family: "Inter", sans-serif;
     font-style: normal;
     background-color: hsl(0, 0%, 8%);
 }
 div{
-    height: 77%;
-    width: 26%;
+    height: 41rem;
+    width: 25rem;
     display: grid;
     grid-template-rows:repeat(auto-fill,minmax(200px,1fr));
     background-color: hsl(0, 0%, 12%);
